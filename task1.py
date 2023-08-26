@@ -13,49 +13,53 @@
 # "type": "file"
 # "size": 4096
 # }
-
-from os import walk, path, listdir
-import pathlib
 import json
-
-directory = "D:\GeekBrains\Advanced Python\homework\python-hw8"
-# # def func_writer(dir):
-# for i in walk(directory):
-# for file in listdir():
-#     print(file)
+import csv
+from os import walk, path
+import pickle
 
 
 
+# подсчет общего размера папки
+def folder_size_calc (directory: str) ->int:
+    ttl_size = 0
+    for dir_path, dir_name, file_name in walk(directory):
+        for i in file_name:
+            size = path.getsize(path.abspath(dir_path + '/' + i))
+            ttl_size +=size
+    return ttl_size
 
+
+directory = "C:\IT\GeekBrains\Python\homeworks\python_hw8"
 
 
 res_dict = {}
+list_files =[]
+data_csv = []
 
 
 
 for dir_path, dir_name, file_name in walk(directory):
-    ttl_size = 0
+    for i in dir_name:
+        list_files.append(f'dir - {i} - size {folder_size_calc(dir_path + "/" + i)} bytes')
     for i in file_name:
         size = path.getsize(path.abspath(dir_path + '/' + i))
-        ttl_size +=size
-        print(f"{i} = {path.getsize(path.abspath(dir_path + '/' + i))} bytes")
-    print(f'folder - {path.basename(dir_path)} has total size - {ttl_size}')
+        list_files.append(f'file - {i} - size {size} bytes')
+    res_dict[f'dir - {dir_path}'] = tuple(list_files)
+    list_files.clear()
 
 
-def 
+with open (('json_file.json'), 'a', encoding='utf-8') as f:
+    data = json.dump(res_dict,f,indent=4)
 
-    
+for key, value in res_dict.items():
+        data_csv.append([key, value])
 
-    # for i in dir_name:
-    #     print (i)    
-    # print(path.getsize('task1.py'))
-    # print(f'{dir_path = }\n{dir_name = }\n{file_name = }\n')
-    # res_dict[f'dir - {dir_path}'] = [f'file - {file_name}, size - {path.getsize(file_name)}{file_name}'for i in file_name]
-    # for i in file_name:
-    #     print(path.getsize(i))
-        
+with open('csv_file.csv', 'w', newline='', encoding='utf-8') as csv_f:
+    write_csv = csv.writer(csv_f, dialect='excel-tab', delimiter=',')
+    write_csv.writerows(data_csv)
 
-# with open (('json_file.json'), 'a', encoding='utf-8') as f:
-#     data = json.dump(res_dict,f,indent=4)
 
+with open('pickle_file.bin', 'wb') as pickle_file:
+    pickle.dump(res_dict, pickle_file)
 
