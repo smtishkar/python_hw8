@@ -35,7 +35,7 @@ directory = "C:\IT\GeekBrains\Python\homeworks\python_hw8"
 
 
 
-def walk_directory_func(directory):
+def walk_directory_func(directory: str):
     res_dict = {}
     list_files = []
     data_csv = []
