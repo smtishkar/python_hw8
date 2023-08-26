@@ -18,6 +18,8 @@ import csv
 from os import walk, path
 import pickle
 
+__all__ = ['folder_size_calc', 'walk_directory_func']
+
 
 # подсчет общего размера папки
 def folder_size_calc(directory: str) -> int:

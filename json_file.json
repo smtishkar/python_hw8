@@ -1,16 +1,16 @@
 {
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8": [
-        "dir - .git - size 36280 bytes",
-        "dir - test - size 28717 bytes",
-        "file - task1.py - size 2471 bytes"
+        "dir - .git - size 41485 bytes",
+        "dir - pack_of_func - size 9935 bytes",
+        "dir - test - size 28717 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git": [
         "dir - hooks - size 25821 bytes",
         "dir - info - size 240 bytes",
-        "dir - logs - size 965 bytes",
-        "dir - objects - size 7774 bytes",
+        "dir - logs - size 1307 bytes",
+        "dir - objects - size 12674 bytes",
         "dir - refs - size 71 bytes",
-        "file - COMMIT_EDITMSG - size 73 bytes",
+        "file - COMMIT_EDITMSG - size 36 bytes",
         "file - config - size 408 bytes",
         "file - description - size 73 bytes",
         "file - HEAD - size 21 bytes",
@@ -37,15 +37,15 @@
         "file - exclude - size 240 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\logs": [
-        "dir - refs - size 574 bytes",
-        "file - HEAD - size 391 bytes"
+        "dir - refs - size 745 bytes",
+        "file - HEAD - size 562 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\logs\\refs": [
-        "dir - heads - size 391 bytes",
+        "dir - heads - size 562 bytes",
         "dir - remotes - size 183 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\logs\\refs\\heads": [
-        "file - main - size 391 bytes"
+        "file - main - size 562 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\logs\\refs\\remotes": [
         "dir - origin - size 183 bytes"
@@ -55,10 +55,16 @@
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects": [
         "dir - 1a - size 186 bytes",
+        "dir - 39 - size 1128 bytes",
+        "dir - 3f - size 187 bytes",
         "dir - 4d - size 220 bytes",
+        "dir - 61 - size 1244 bytes",
         "dir - 7d - size 1047 bytes",
+        "dir - 81 - size 1070 bytes",
         "dir - 88 - size 924 bytes",
         "dir - a2 - size 814 bytes",
+        "dir - a3 - size 1081 bytes",
+        "dir - a6 - size 190 bytes",
         "dir - f1 - size 765 bytes",
         "dir - info - size 0 bytes",
         "dir - pack - size 3818 bytes"
@@ -66,17 +72,35 @@
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\1a": [
         "file - 80c061e7a392a11d9da2176286aab2c55d83bc - size 186 bytes"
     ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\39": [
+        "file - 0d608223edd41791b0f2a2b13374316a7c7eb4 - size 1128 bytes"
+    ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\3f": [
+        "file - 11de7e763701507ffa9797c3e1805f8510ace9 - size 187 bytes"
+    ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\4d": [
         "file - 1b6d1e0455c01696ad5593c24778bf4b837a20 - size 220 bytes"
     ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\61": [
+        "file - 0f2f44e8e3f10398cd036cec414f7d54510751 - size 1244 bytes"
+    ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\7d": [
         "file - 585593f9b0bc94f3478b59418f1c4ece9d3e56 - size 1047 bytes"
+    ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\81": [
+        "file - 9b1ab4c4a4e4e8fa9cabc8127d12d6c0a8b832 - size 1070 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\88": [
         "file - 53cfb4493e2d6cf00ca301163708ba029ebc43 - size 924 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\a2": [
         "file - 1cabc26718efef517f0b9112e7106855bd9f83 - size 814 bytes"
+    ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\a3": [
+        "file - ebed194868854ae4c7a7f510aee17e0003f2f2 - size 1081 bytes"
+    ],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\a6": [
+        "file - d693e8a35b17eaef130e530d52d6eabbaa8875 - size 190 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\objects\\f1": [
         "file - 614f324f940870865d916d8328b74777c96c48 - size 765 bytes"
@@ -102,6 +126,16 @@
         "file - HEAD - size 30 bytes"
     ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\.git\\refs\\tags": [],
+    "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\pack_of_func": [
+        "file - homework_task.py - size 2528 bytes",
+        "file - task1.py - size 975 bytes",
+        "file - task2.5.py - size 1746 bytes",
+        "file - task2.py - size 1559 bytes",
+        "file - task3.py - size 910 bytes",
+        "file - task4.py - size 1513 bytes",
+        "file - task5.py - size 704 bytes",
+        "file - __init__.py - size 0 bytes"
+    ],
     "dir - C:\\IT\\GeekBrains\\Python\\homeworks\\python_hw8\\test": [
         "dir - test2 - size 23829 bytes",
         "file - few.txt - size 4888 bytes"
